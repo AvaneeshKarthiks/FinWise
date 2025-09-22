@@ -5,7 +5,7 @@
 
 
 ## backend setup
-  "install uv package manager: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  
   cd backend  
   uv venv  
   .venv\Scripts\activate  
