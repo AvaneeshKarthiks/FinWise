@@ -5,11 +5,11 @@
 
 ## backend setup
   install uv package manager: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-  cd backend
-  uv venv
+  .cd backend
+  .uv venv
   .venv\Scripts\activate
-  uv sync
+  .uv sync
 
 ## run backend
-  cd backend
-  uv run run.py
+  .cd backend
+  .uv run run.py
